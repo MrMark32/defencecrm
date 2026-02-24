@@ -32,7 +32,6 @@ import ProjectManagementLayout from "./pages/project/ProjectManagementLayout";
 import AllProjects from "./pages/project/AllProjects";
 import TaskManagement from "./pages/project/TaskManagement";
 import Team from "./pages/project/Team";
-import Timeline from "./pages/project/Timesheet";
 import Timesheet from "./pages/project/Timesheet";
 import Overview from "./pages/project/Overview";
 import Reports from "./pages/project/Reports";
