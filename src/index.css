@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Your primary blue palette (used in both modes) */
+  --color-primary-50:  #f0f9ff;
+  --color-primary-100: #e0f2fe;
+  --color-primary-200: #bae6fd;
+  --color-primary-300: #7dd3fc;
+  --color-primary-400: #38bdf8;
+  --color-primary-500: #0ea5e9;
+  --color-primary-600: #0284c7;
+  --color-primary-700: #0369a1;
+  --color-primary-800: #075985;
+  --color-primary-900: #0c4a6e;
+  --color-primary-950: #082f49;
+
+  /* Sidebar surface colors – blue-tinted light / dark-navy */
+  --sidebar-bg-light: theme('colors.white');
+  --sidebar-bg-dark:  #000;           /* slate-900 / deep blue-gray */
+
+  /* Sidebar accents – keep blue feel in both modes */
+  --sidebar-accent: var(--color-primary-600);
+  --sidebar-accent-hover: var(--color-primary-700);
+  --sidebar-accent-active: var(--color-primary-500);
+}
